@@ -487,11 +487,12 @@ export default {
   left: 0;
   right: 0;
   top: 0;
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(5, 20%);
+  display: flex;
+  flex-wrap: wrap;
 }
 .grid {
+  width: 20%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
